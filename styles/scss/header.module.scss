@@ -1,0 +1,32 @@
+.header-Block {
+  background: #000;
+  opacity: 0.8;
+  color: #fff;
+  padding: 0 25px;
+
+  .header-Container {
+    .header-Inner {
+      height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .header-Logo {
+        .header-Title {
+          font-size: 28px;
+          font-family: serif;
+          font-weight: bold;
+        }
+      }
+      .header-Nav_area {
+        .header-Nav {
+          .header-Nav_list {
+            display: flex;
+            .header-Nav_item {
+              padding: 0 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

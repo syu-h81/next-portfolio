@@ -1,0 +1,20 @@
+.footer-Block {
+  background: #000;
+  opacity: 0.8;
+  color: #fff;
+  text-align: center;
+  padding: 60px 0;
+  .footer-Container {
+    .footer-Nav {
+      margin-bottom: 50px;
+      .footer-Nav_list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .footer-Nav_item {
+          padding: 0 15px;
+        }
+      }
+    }
+  }
+}
